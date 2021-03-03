@@ -1,0 +1,65 @@
+{
+    "services": 
+    [
+    { 
+        "id": 1, 
+        "title": "I will landscape your garden", 
+        "imageUrl": "http://localhost:9000/landscape.jpg",
+        "rate": 34,
+        "rating": 4,
+         "specialist":
+        { 
+            "id": 1,
+             "fullName": "Judy Greer" 
+        }
+    },
+    { "id": 2,
+      "title": "I will fix your car from top to bottom: Car Repaire & Service", 
+      "imageUrl": "http://localhost:9000/car.jpg",
+      "rate": 50,
+      "rating": 3,
+       "specialist": 
+       { "id": 1,
+         "fullName": "Local Garages" }
+    },
+    { "id": 3,
+      "title": "I will Manage your team with strict plan, To get the best out of people", 
+      "imageUrl": "http://localhost:9000/images/services/manage-team.jpg",
+      "rate": 42,
+      "rating": 5,
+       "specialist":
+        { "id": 1,
+          "fullName": "Mark Brone" }
+    },
+    { "id": 4,
+      "title": "Molly Maid House Cleaning Services", 
+      "imageUrl": "http://localhost:9000/cdc-VRpjDw3Wqql-unsplash.jpg",
+      "rate": 50,
+      "rating": 5,
+      "specialist":
+       { "id": 1,
+         "fullName": "Molly" 
+       }
+    }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "username": "Pera",
+        "email": "peraperic@gmail.com",
+        "password": "asdf123"
+      },
+      {
+        "username": "Jelena",
+        "email": "jeca@gmail.com",
+        "password": "jeca123",
+        "id": 2
+      },
+      {
+        "username": "Nenad",
+        "email": "nesa@gmail.com",
+        "password": "nesa123",
+        "id": 3
+      }
+    ]
+  }
